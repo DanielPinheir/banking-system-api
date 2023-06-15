@@ -1,0 +1,135 @@
+{
+  "banco": {
+    "nome": "Cubos Bank",
+    "numero": "123",
+    "agencia": "0001",
+    "senha": "Cubos123Bank"
+  },
+  "contas": [
+    {
+      "numero": "1",
+      "saldo": 39500,
+      "usuario": {
+        "nome": "Foo Bar",
+        "cpf": "00011122233",
+        "data_nascimento": "2021-03-15",
+        "telefone": "71999998888",
+        "email": "foo@bar.com",
+        "senha": "1234"
+      }
+    },
+    {
+      "numero": 3,
+      "saldo": 45000,
+      "usuario": {
+        "nome": "Junior Viana",
+        "cpf": "45698732100",
+        "data_nascimento": "1982-02-15",
+        "telefone": "85988776655",
+        "email": "jv@gmail.com",
+        "senha": "574152"
+      }
+    },
+    {
+      "numero": 4,
+      "saldo": 38500,
+      "usuario": {
+        "nome": "Mario Lobo",
+        "cpf": "98765432100",
+        "data_nascimento": "1966-12-13",
+        "telefone": "77988776655",
+        "email": "mario@gmail.com",
+        "senha": "26895"
+      }
+    },
+    {
+      "numero": 5,
+      "saldo": 19000,
+      "usuario": {
+        "nome": "João Amoedo",
+        "cpf": "98785463981",
+        "data_nascimento": "1956-05-13",
+        "telefone": "77988776699",
+        "email": "amoedo@gmail.com",
+        "senha": "456128"
+      }
+    },
+    {
+      "numero": 6,
+      "saldo": 19000,
+      "usuario": {
+        "nome": "Airton Senna",
+        "cpf": "62136945892",
+        "data_nascimento": "1970-03-29",
+        "telefone": "11988732699",
+        "email": "senna@gmail.com",
+        "senha": "614593"
+      }
+    },
+    {
+      "numero": 7,
+      "saldo": 0,
+      "usuario": {
+        "nome": "Patolino",
+        "cpf": "85244264151",
+        "data_nascimento": "1955-10-22",
+        "telefone": "11988372699",
+        "email": "pato@gmail.com",
+        "senha": "458179"
+      }
+    }
+  ],
+  "saques": [
+    { "data": "2023-06-08 21:13:05", "numero_conta": "3", "valor": 10000 },
+    { "data": "2023-06-09 19:13:26", "numero_conta": "6", "valor": 1000 },
+    { "data": "2023-06-09 19:13:43", "numero_conta": "6", "valor": 1000 },
+    { "data": "2023-06-09 20:15:15", "numero_conta": "1", "valor": 13000 }
+  ],
+  "depositos": [
+    { "data": "2023-06-08 20:02:00", "numero_conta": "3", "valor": 50000 },
+    { "data": "2023-06-08 20:07:49", "numero_conta": "3", "valor": 20000 },
+    { "data": "2023-06-08 20:55:45", "numero_conta": "3", "valor": 5000 },
+    { "data": "2023-06-08 20:57:30", "numero_conta": "3", "valor": 5000 },
+    { "data": "2023-06-08 20:58:59", "numero_conta": "3", "valor": 5000 },
+    { "data": "2023-06-09 18:19:53", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:21:30", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:22:09", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:22:46", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:23:29", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:25:40", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:29:07", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:31:02", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 18:32:07", "numero_conta": "5", "valor": 10000 },
+    { "data": "2023-06-09 19:05:07", "numero_conta": "6", "valor": 15000 },
+    { "data": "2023-06-09 19:05:34", "numero_conta": "6", "valor": 5000 },
+    { "data": "2023-06-09 19:10:37", "numero_conta": "6", "valor": 1000 },
+    { "data": "2023-06-09 20:07:09", "numero_conta": "3", "valor": 5000 },
+    { "data": "2023-06-09 20:12:00", "numero_conta": "5", "valor": 5000 }
+  ],
+  "transferencias": [
+    {
+      "data": "2023-06-06 17:32:33",
+      "numero_conta_origem": "1",
+      "numero_conta_destino": "5",
+      "valor": 1000
+    },
+    {
+      "data": "2023-06-08 21:37:04",
+      "numero_conta_origem": "1",
+      "numero_conta_destino": "5",
+      "valor": 10000
+    },
+    {
+      "data": "2023-06-09 19:30:20",
+      "numero_conta_origem": "3",
+      "numero_conta_destino": "4",
+      "valor": 35000
+    },
+    {
+      "data": "2023-06-09 20:18:53",
+      "numero_conta_origem": "1",
+      "numero_conta_destino": "4",
+      "valor": 3500
+    }
+  ]
+}
